@@ -1,10 +1,10 @@
-//
-//  AppDelegate.swift
-//  DYZB
-//
-//  Created by mac on 2017/4/6.
-//  Copyright © 2017年 小宝哥哥. All rights reserved.
-//
+/*
+ 
+ 通过命令行 git  提交 目录  
+ 
+ 
+ 
+ */
 
 import UIKit
 
