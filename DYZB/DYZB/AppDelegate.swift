@@ -1,8 +1,23 @@
 /*
+ 1、基本设置
+    设置部署版本
+    设置屏幕方向
+    设置图片
+    建立目录
  
- 通过命令行 git  提交 目录  
+ 2、通过命令行 git  提交 目录
+ cd /Users/mac/Desktop/斗鱼直播代码/DouYuZB 
+ git add .   是将所有没在源代码管理的文件 放到源代码管理当中
+ git commit -m"目录划分"    // 注释
+ git push  提交
+
  
  
+ 3、在控制器中添加导航栏：Editor - Embed in - Navigation Controller
+ 4、为了防止stroryboard 过多界面引起的代码冲突，需要进行分离  ， 抽取单独的stroryboard ，
+    ios 9 新特性：Storyboard References    Editor 
+ 5、因为好适配 8.0 所以 要通过其他storyboard  来创建控制器，之后用代码形式把控制器加进来
+ 6、
  
  */
 
@@ -15,7 +30,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    
+        /* 程序启动时调用    更改tabbar 的颜色*/
+        UITabBar.appearance().tintColor = UIColor.orange
+        
+        
         return true
     }
 
